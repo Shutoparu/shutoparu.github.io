@@ -24,6 +24,10 @@ img {
     padding: 10px;
 }
 
+li {
+    padding: 5px;
+}
+
 .header {
     background-color: #91AB99;
     padding: 15px;
@@ -47,6 +51,26 @@ img {
 .navbar a:hover {
     background-color: #A7C4B5;
     color: black;
+}
+
+.column {
+    float: left;
+}
+
+.column.left {
+    width: 15%;
+    text-align: left;
+    background-color: #C6E9D1;
+}
+
+.column.right {
+    width: 85%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .footer {
