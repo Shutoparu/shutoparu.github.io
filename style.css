@@ -41,7 +41,6 @@ li {
 
 .navbar a {
     float: left;
-    text-align: center;
     padding: 15px 15px;
     text-decoration: none;
     color: #8D87AA;
@@ -63,8 +62,22 @@ li {
     background-color: #C6E9D1;
 }
 
+.column.left a {
+    color: #B48291
+}
+
 .column.right {
     width: 85%;
+}
+
+.column.half {
+    width: 50%;
+}
+
+.column.half dl {
+    text-align: left;
+    font-size: smaller;
+    padding: 3px;
 }
 
 .row:after {
@@ -74,6 +87,12 @@ li {
 }
 
 .footer {
+    overflow: hidden;
     padding: 10px;
     background-color: #545E56;
+}
+
+.footer a {
+    color: #8D87AA;
+    text-decoration: none;
 }
